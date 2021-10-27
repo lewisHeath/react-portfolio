@@ -1,0 +1,29 @@
+* {
+    color: #fff;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    display: flex;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px; */
+    margin-top: 10px;
+}
+
+.listWrapper {
+    width: 25rem;
+    margin-right: 20px;
+}
+
+p{
+    margin-left: 10px;
+}

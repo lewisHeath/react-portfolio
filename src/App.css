@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+h1:before {
+  content: '<h1> ';
+  font-family: 'La Belle Aurore', cursive;
+  color: #515152;
+  font-size: 1rem;
+  /* position: absolute; */
+  /* margin-top: -5 rem;
+  left: -1.5 rem; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1:after {
+  content: ' <h1/>';
+  font-family: 'La Belle Aurore', cursive;
+  color: #515152;
+  font-size: 1rem;
+  /* position: absolute; */
+  /* margin-top: 2 rem;
+  margin-left: 5 rem; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 20px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1:hover{
+  color: #6829e9;
 }
